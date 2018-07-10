@@ -61,35 +61,35 @@ class Header extends Component {
                 <nav id="mobile-nav">
               <ul className="" id="">
                 <li id="menu-item-24" className="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children  menu-item-24 has-dropdown">
-                <Link to="/" title="Healing Hands - Advanced Physiotherapy Clinic" rel="home"><span className="nav-top-link">Home</span></Link>
+                <Link to="/" title="Healing Hands - Advanced Physiotherapy Clinic" rel="home" onClick={(e)=>{e.preventDefault();this.showMobileNav()}}><span className="nav-top-link">Home</span></Link>
                 </li>
                 <li id="menu-item-25" className="menu-item menu-has-children menu-item-type-post_type menu-item-object-page menu-item-has-children  menu-item-25 has-dropdown"><i className={this.state.navServicesArrowStyle} onClick={(e)=>{e.preventDefault();this.toggleDropDown("services");}}></i>
                   <a className="nav-top-link">Services
                   </a>
                   <ul className={this.state.navServicesDropdownStyle}>
                     <li id="menu-sub-item-1" className="menu-item menu-item-type-post_type menu-item-object-page menu-sub-item-1">
-                      <a href="https://ratoathphysio.ie/conditions/back-pain/">Hands on Physiotherapy</a>
+                      <a href="">Hands on Physiotherapy</a>
                     </li>
                     <li id="menu-sub-item-2" className="menu-item menu-item-type-post_type menu-item-object-page menu-sub-item-2">
-                      <a href="https://ratoathphysio.ie/conditions/neck-pain/">Therapeutic taping</a>
+                      <a href="">Therapeutic taping</a>
                     </li>
                     <li id="menu-sub-item-3" className="menu-item menu-item-type-post_type menu-item-object-page menu-sub-item-3">
-                      <a href="https://ratoathphysio.ie/conditions/chronic-headaches/">Dry Needling</a>
+                      <a href="">Dry Needling</a>
                     </li>
                     <li id="menu-sub-item-4" className="menu-item menu-item-type-post_type menu-item-object-page menu-sub-item-4">
-                      <a href="https://ratoathphysio.ie/conditions/planter-fasciitis/">Physiotherapy Exercises</a>
+                      <a href="">Physiotherapy Exercises</a>
                     </li>
                     <li id="menu-sub-item-5" className="menu-item menu-item-type-post_type menu-item-object-page menu-sub-item-5">
-                      <a href="https://ratoathphysio.ie/conditions/shoulder-pain/">Biomechanical and ergonomic analysis</a>
+                      <a href="">Biomechanical and ergonomic analysis</a>
                     </li>
                     <li id="menu-sub-item-6" className="menu-item menu-item-type-post_type menu-item-object-page menu-sub-item-6">
-                      <a href="https://ratoathphysio.ie/conditions/chronic-headaches/">Electrotherapeutic modalities</a>
+                      <a href="">Electrotherapeutic modalities</a>
                     </li>
                     <li id="menu-sub-item-7" className="menu-item menu-item-type-post_type menu-item-object-page menu-sub-item-7">
-                      <a href="https://ratoathphysio.ie/conditions/planter-fasciitis/">Cupping</a>
+                      <a href="">Cupping</a>
                     </li>
                     <li id="menu-sub-item-8" className="menu-item menu-item-type-post_type menu-item-object-page menu-sub-item-8">
-                      <a href="https://ratoathphysio.ie/conditions/shoulder-pain/">Others</a>
+                      <a href="">Others</a>
                     </li>
                   </ul>
                 </li>
@@ -98,19 +98,19 @@ class Header extends Component {
                   </a>
                   <ul className={this.state.navConditionsDropdownStyle}>
                     <li id="menu-item-176" className="menu-item menu-item-type-post_type menu-item-object-page  menu-item-176">
-                        <Link to="/back-pain"><span>Back Pain</span></Link>
+                        <Link to="/back-pain" onClick={this.showMobileNav}><span>Back Pain</span></Link>
                     </li>
                     <li id="menu-item-178" className="menu-item menu-item-type-post_type menu-item-object-page  menu-item-178">
-                    <Link to="/neck-pain"><span>Neck Pain</span></Link>
+                    <Link to="/neck-pain" onClick={this.showMobileNav}><span>Neck Pain</span></Link>
                     </li>
                     <li id="menu-item-177" className="menu-item menu-item-type-post_type menu-item-object-page  menu-item-177">
-                    <Link to="/chronic"><span>Chronic Headaches</span></Link>
+                    <Link to="/chronic" onClick={this.showMobileNav}><span>Chronic Headaches</span></Link>
                     </li>
                     <li id="menu-item-179" className="menu-item menu-item-type-post_type menu-item-object-page  menu-item-179">
-                    <Link to="/planter"><span>Planter Fasciitis</span></Link>
+                    <Link to="/planter" onClick={this.showMobileNav}><span>Planter Fasciitis</span></Link>
                     </li>
                     <li id="menu-item-180" className="menu-item menu-item-type-post_type menu-item-object-page  menu-item-180">
-                    <Link to="/shoulder-pain"><span>Shoulder Pain</span></Link>
+                    <Link to="/shoulder-pain" onClick={this.showMobileNav}><span>Shoulder Pain</span></Link>
                     </li>
                   </ul>
                 </li>
@@ -121,10 +121,10 @@ class Header extends Component {
                   <a href="https://ratoathphysio.ie/faq/" className="nav-top-link">Blog</a>
                 </li> */}
                 <li id="menu-item-270" className="menu-item menu-item-type-post_type menu-item-object-page  menu-item-270">
-                <Link to="/faq"><span className="nav-top-link">FAQ</span></Link>
+                <Link to="/faq" onClick={this.showMobileNav}><span className="nav-top-link">FAQ</span></Link>
                 </li>
                 <li id="menu-item-28" className="menu-item menu-item-type-post_type menu-item-object-page  menu-item-28">
-                <Link to="/contact"><span className="nav-top-link">Contact</span></Link>
+                <Link to="/contact" onClick={this.showMobileNav}><span className="nav-top-link">Contact</span></Link>
                 </li>
               </ul>
               </nav></div>
