@@ -1,0 +1,38 @@
+[debug] [2018-07-10T10:45:21.647Z] ----------------------------------------------------------------------
+[debug] [2018-07-10T10:45:21.649Z] Command:       /usr/local/bin/node /usr/local/bin/firebase deploy --only hosting
+[debug] [2018-07-10T10:45:21.650Z] CLI Version:   3.18.6
+[debug] [2018-07-10T10:45:21.650Z] Platform:      darwin
+[debug] [2018-07-10T10:45:21.650Z] Node Version:  v10.3.0
+[debug] [2018-07-10T10:45:21.650Z] Time:          Tue Jul 10 2018 16:15:21 GMT+0530 (IST)
+[debug] [2018-07-10T10:45:21.650Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-07-10T10:45:21.688Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-07-10T10:45:21.689Z] > authorizing via signed-in user
+[debug] [2018-07-10T10:45:21.690Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2018-07-10T10:45:21.691Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ { refresh_token:
+   '1/D_IHgPdoaPne2UoVkJ0V487QWcpemD-PGgvfyfilsLpkZRGKOIBoZPMT8vDrcnV9',
+  client_id:
+   '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope:
+   'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Tue Jul 10 2018 16:15:21 GMT+0530 (IST)
+[debug] [2018-07-10T10:45:23.277Z] <<< HTTP RESPONSE 200
+[debug] [2018-07-10T10:45:23.294Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/healinghandsapc  
+  
+ Tue Jul 10 2018 16:15:23 GMT+0530 (IST)
+[debug] [2018-07-10T10:45:25.314Z] <<< HTTP RESPONSE 200
+[debug] [2018-07-10T10:45:25.315Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/healinghandsapc/tokens  
+  
+ Tue Jul 10 2018 16:15:25 GMT+0530 (IST)
+[debug] [2018-07-10T10:45:26.544Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Deploying to 'healinghandsapc'...
+[info] 
+[info] i  deploying hosting
+[info] i  hosting: preparing build directory for upload...
+[debug] [2018-07-10T10:45:37.625Z] >>> HTTP REQUEST PUT https://deploy.firebase.com/v1/hosting/healinghandsapc/uploads/-LH2myg8Gxu4tRD5IdR0?fileCount=80&message=  
+  
+ Tue Jul 10 2018 16:15:37 GMT+0530 (IST)

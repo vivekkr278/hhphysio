@@ -1,0 +1,294 @@
+body {
+  font-family: "Poppins", Arial, sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.7;
+  color: #666666;
+  background: #fff;
+}
+.App {
+  text-align: center;
+}
+h1{
+  line-height: 1.45em;
+  letter-spacing: 3px;
+  font-size: 2em;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+section{
+  padding-left: 1%;
+  padding-right: 1%;
+}
+.section.dark {
+  background-color: #0086c7 !important;
+}
+.nav-top-link{
+  font-weight: 600;
+}
+#mobile-nav .nav-top-link{
+  font-weight: 400;
+}
+.slick-next{
+  display: none !important;
+}
+/* Accordian */
+.accordion-container {
+  width: 75%;
+  min-width: 280px;
+  margin: 5vh auto;
+  border-radius: 5px;
+  background-color: #fff;
+  -webkit-box-shadow: -2px 1px 2px 2px #A9A9A9;
+  box-shadow: -2px 1px 2px 2px #A9A9A9;
+}
+.accordion-container div {
+  border-bottom: 3px solid;
+  border-color: #0086c7;
+  transition: border-color 0.5s ease-in;
+}
+
+.answer, .summary {
+  display: inline-block;
+}
+
+.answer {
+  background: #3a3042;
+  color: #fff;
+}
+
+.summary {
+  text-transform: uppercase;
+  cursor: pointer;
+  font-weight: 500;
+  line-height: 25px;
+  padding: 15px;
+}
+/* .summary:before {
+  content: '>\0000a0';
+} */
+
+.folding-pannel {
+  display: block;
+  transition: all 0.2s ease-in;
+  line-height: 40px;
+  border-top: 2px solid #3a3042;
+}
+
+.active .summary {
+  border-color: transparent;
+  transition: border-color 0.2s ease-out;
+}
+
+.inactive .folding-pannel {
+  transform-origin: 50% 0%;
+  transform: perspective(250px) rotateX(-90deg);
+  transition: all 0.4s ease-in-out;
+  height: 0;
+}
+
+.active .folding-pannel {
+  transform: perspective(350px) rotateX(0deg);
+  transition: all 0.4s ease-in-out;
+  height: auto;
+  line-height: 2em;
+  padding: 0 1vw;
+}
+/*Accordian Ends*/
+
+#footer .section.dark {
+  background-color: #444444 !important;
+}
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+.container {
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.colorlib-heading {
+  margin-bottom: 3em;
+}
+.react-datepicker__input-container, .react-datepicker-wrapper{
+  width:100%;
+}
+label {
+  display: inline-block;
+  max-width: 100%;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+.appointmentBtn{
+  padding-top: 1em;
+  margin-bottom: -0.5em;
+}
+textarea.form-control {
+  height: auto;
+}
+.home-section-first{
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.home-section-second{
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.styles-section-title{
+  line-height: 1.45em;
+  letter-spacing: 3px;
+  font-size: 2em;
+  font-weight: 500;
+  margin-top: 15px;
+  text-transform: uppercase;
+}
+.book-now-section {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+.book-now-inner-section > .col > .col-inner {
+  padding: 50px 0px 50px 0px;
+  background-color: #0086c7 !important;
+}
+.book-now-button-section > .col > .col-inner {
+  padding: 50px 0px 35px 0px;
+  background-color: rgb(241, 243, 244);
+}
+.row.row-collapse {
+  max-width: 100%;
+}
+.bookAppointment{
+  max-width: 800px;
+  margin-top: 2em;
+}
+
+.back-pain-banner, .neck-pain-banner, .cronic-banner, .planter-banner, .shoulder-pain-banner{
+  padding-top: 220px;
+  background-color: rgb(255, 255, 255);
+}
+.back-pain-banner .bg.bg-loaded {
+  background-image: url("./assets/conditions/backpain-header-img.jpg");
+}
+.neck-pain-banner .bg.bg-loaded {
+  background-image: url("./assets/conditions/neck-pain-banner.jpg");
+}
+.cronic-banner .bg.bg-loaded {
+  background-image: url("./assets/conditions/cronic-banner-img.jpg");
+}
+.planter-banner .bg.bg-loaded {
+  background-image: url("./assets/conditions/plant-banner-img.jpg");
+}
+.shoulder-pain-banner .bg.bg-loaded {
+  background-image: url("./assets/conditions/should-banner.jpg");
+}
+.back-pain-banner .overlay, .neck-pain-banner .overlay, .cronic-banner .overlay,  .planter-banner .overlay, .shoulder-pain-banner .overlay {
+  background-color: rgba(0, 0, 0, 0.38);
+}
+
+.banner-text-box {
+  width: 98%;
+}
+.banner-text-box .text {
+  font-size: 100%;
+}
+@media (min-width:550px) {
+
+  .back-pain-banner, .neck-pain-banner, .cronic-banner, .planter-banner, .shoulder-pain-banner{
+    padding-top: 450px;
+  }
+  .back-pain-banner .overlay, .neck-pain-banner .overlay, .cronic-banner .overlay, .planter-banner .overlay, .shoulder-pain-banner .overlay{
+    background-color: rgba(0, 0, 0, 0);
+  }
+  .banner-text-box {
+    width: 61%;
+  }
+}
+
+
+@media (min-width:850px) {
+
+  .back-pain-banner, .neck-pain-banner, .cronic-banner, .cronic-banner, .planter-banner,.shoulder-pain-banner{
+    padding-top: 650px;
+  }
+  .banner-text-box {
+    width: 36%;
+  }
+  .book-now-button-section > .col > .col-inner {
+    padding: 50px 0px 35px 0px;
+  }
+}
+.back-pain-first-section,.neck-pain-first-section,.cronic-first-section,.planter-first-section,.shoulder-pain-first-section,.faq-first-section,.contact-first-section{
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: #65c4ef;
+  padding: 20px 0;
+}
+.back-pain-first-section h1,.neck-pain-first-section h1,.cronic-first-section h1,.planter-first-section h1,.shoulder-pain-first-section h1,.faq-first-section h1,.contact-first-section h1{
+margin: 0 auto;
+}
+.back-pain-second-section,.neck-pain-second-section,.cronic-second-section,.planter-second-section,.shoulder-pain-second-section,.contact-second-section,.contact-third-section{
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+.back-pain-third-section,.neck-pain-third-section,.cronic-third-section,.planter-third-section,.shoulder-pain-third-section{
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.back-pain-fourth-section,.neck-pain-fourth-section,.cronic-fourth-section,.planter-fourth-section,.shoulder-pain-third-section{
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: rgb(241, 243, 244);
+}
+.back-pain-fifth-section,.neck-pain-fifth-section,.cronic-fifth-section,.planter-fifth-section,.shoulder-pain-fifth-section{
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+@media screen and (min-width: 850px) and (max-width: 880px){
+.header-inner .nav{
+  flex-wrap: nowrap;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+}
+}
+@media (min-width: 768px) {
+  /* .container {
+    width: 750px;
+  } */
+}
+@media (min-width: 992px) {
+  /* .container {
+    width: 970px;
+  } */
+  .col-md-offset-3 {
+    margin-left: 25%;
+  }
+  .col-md-offset-2 {
+    margin-left: 16.66667%;
+  }
+}
+@media (min-width: 1200px) {
+  /* .container {
+    width: 1170px;
+  } */
+}
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
