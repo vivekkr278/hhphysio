@@ -179,7 +179,11 @@ textarea.form-control {
   margin-top: 2em;
 }
 
-.back-pain-banner, .neck-pain-banner, .cronic-banner, .planter-banner, .shoulder-pain-banner{
+/* Conditions Style */
+#conditions{
+  margin: 1% 12%;
+}
+.back-pain-banner, .neck-pain-banner, .cronic-banner, .planter-banner, .shoulder-pain-banner,.hop-banner, .dry-needling-banner, .cupping-banner, .taping-banner{
   padding-top: 220px;
   background-color: rgb(255, 255, 255);
 }
@@ -198,8 +202,22 @@ textarea.form-control {
 .shoulder-pain-banner .bg.bg-loaded {
   background-image: url("./assets/conditions/should-banner.jpg");
 }
-.back-pain-banner .overlay, .neck-pain-banner .overlay, .cronic-banner .overlay,  .planter-banner .overlay, .shoulder-pain-banner .overlay {
+
+.back-pain-banner .overlay, .neck-pain-banner .overlay, .cronic-banner .overlay,  .planter-banner .overlay, .shoulder-pain-banner .overlay, .hop-banner .overlay, .dry-needling-banner .overlay,.cupping-banner .overlay, .taping-banner .overlay {
   background-color: rgba(0, 0, 0, 0.38);
+}
+/* Services Styles */
+.hop-banner .bg.bg-loaded {
+  background-image: url("./assets/services/pic1.jpg");
+}
+.cupping-banner .bg.bg-loaded {
+  background-image: url("./assets/services/pic5.jpg");
+}
+.dry-needling-banner .bg.bg-loaded {
+  background-image: url("./assets/services/pic2.jpg");
+}
+.taping-banner  .bg.bg-loaded {
+  background-image: url("./assets/services/pic4.jpg");
 }
 
 .banner-text-box {
@@ -208,12 +226,38 @@ textarea.form-control {
 .banner-text-box .text {
   font-size: 100%;
 }
+.services{
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: rgb(228, 232, 234);
+}
+.services-content > .col > .col-inner {
+  padding: 35px 0px 0px 0px;
+}
+.row-large>.col {
+  display: flex;
+  padding: 0 10px 20px;
+  margin-bottom: 0;
+}
+.services h1{
+word-wrap: break-word;
+}
+.listContainer{
+  display: table;
+  padding:0;
+  margin:0 5%;
+  width:100%;
+  text-align: center;
+}
+.listContainer li{
+  text-align: left;
+}
 @media (min-width:550px) {
 
-  .back-pain-banner, .neck-pain-banner, .cronic-banner, .planter-banner, .shoulder-pain-banner{
+  .back-pain-banner, .neck-pain-banner, .cronic-banner, .planter-banner, .shoulder-pain-banner,.hop-banner,.dry-needling-banner,.cupping-banner, .taping-banner{
     padding-top: 450px;
   }
-  .back-pain-banner .overlay, .neck-pain-banner .overlay, .cronic-banner .overlay, .planter-banner .overlay, .shoulder-pain-banner .overlay{
+  .back-pain-banner .overlay, .neck-pain-banner .overlay, .cronic-banner .overlay, .planter-banner .overlay, .shoulder-pain-banner .overlay,.hop-banner .overlay,.dry-needling-banner .overlay,.cupping-banner .overlay, .taping-banner .overlay{
     background-color: rgba(0, 0, 0, 0);
   }
   .banner-text-box {
@@ -224,7 +268,7 @@ textarea.form-control {
 
 @media (min-width:850px) {
 
-  .back-pain-banner, .neck-pain-banner, .cronic-banner, .cronic-banner, .planter-banner,.shoulder-pain-banner{
+  .back-pain-banner, .neck-pain-banner, .cronic-banner, .cronic-banner, .planter-banner,.shoulder-pain-banner,.hop-banner,.dry-needling-banner,.cupping-banner,.taping-banner{
     padding-top: 650px;
   }
   .banner-text-box {
@@ -234,29 +278,29 @@ textarea.form-control {
     padding: 50px 0px 35px 0px;
   }
 }
-.back-pain-first-section,.neck-pain-first-section,.cronic-first-section,.planter-first-section,.shoulder-pain-first-section,.faq-first-section,.contact-first-section{
+.back-pain-first-section,.neck-pain-first-section,.cronic-first-section,.planter-first-section,.shoulder-pain-first-section,.faq-first-section,.contact-first-section,.hop-first-section{
   padding-top: 30px;
   padding-bottom: 30px;
   background-color: #65c4ef;
   padding: 20px 0;
 }
-.back-pain-first-section h1,.neck-pain-first-section h1,.cronic-first-section h1,.planter-first-section h1,.shoulder-pain-first-section h1,.faq-first-section h1,.contact-first-section h1{
+.back-pain-first-section h1,.neck-pain-first-section h1,.cronic-first-section h1,.planter-first-section h1,.shoulder-pain-first-section h1,.faq-first-section h1,.contact-first-section h1,.hop-first-section h1{
 margin: 0 auto;
 }
-.back-pain-second-section,.neck-pain-second-section,.cronic-second-section,.planter-second-section,.shoulder-pain-second-section,.contact-second-section,.contact-third-section{
+.back-pain-second-section,.neck-pain-second-section,.cronic-second-section,.planter-second-section,.shoulder-pain-second-section,.contact-second-section,.contact-third-section,.hop-second-section{
   padding-top: 0px;
   padding-bottom: 0px;
 }
-.back-pain-third-section,.neck-pain-third-section,.cronic-third-section,.planter-third-section,.shoulder-pain-third-section{
+.back-pain-third-section,.neck-pain-third-section,.cronic-third-section,.planter-third-section,.shoulder-pain-third-section,.hop-third-section{
   padding-top: 50px;
   padding-bottom: 50px;
 }
-.back-pain-fourth-section,.neck-pain-fourth-section,.cronic-fourth-section,.planter-fourth-section,.shoulder-pain-third-section{
+.back-pain-fourth-section,.neck-pain-fourth-section,.cronic-fourth-section,.planter-fourth-section,.shoulder-pain-fourth-section,.hop-fourth-section{
   padding-top: 30px;
   padding-bottom: 30px;
   background-color: rgb(241, 243, 244);
 }
-.back-pain-fifth-section,.neck-pain-fifth-section,.cronic-fifth-section,.planter-fifth-section,.shoulder-pain-fifth-section{
+.back-pain-fifth-section,.neck-pain-fifth-section,.cronic-fifth-section,.planter-fifth-section,.shoulder-pain-fifth-section,.hop-fifth-section{
   padding-top: 30px;
   padding-bottom: 30px;
 }

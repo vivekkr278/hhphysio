@@ -2,20 +2,18 @@ import React, { Component } from "react";
 import { Link } from "react-router-dom";
 
 class Contact extends Component {
-  constructor(props) {
-    super(props);
-  }
+
   render() {
     return (
       <div id="contact-page" className="pageContainer">
-        <div role="main" class="content-area">
-          <section class="section dark contact-first-section">
-            <div class="bg section-bg fill bg-fill  bg-loaded" />
+        <div role="main" className="content-area">
+          <section className="section dark contact-first-section">
+            <div className="bg section-bg fill bg-fill  bg-loaded" />
 
-            <div class="section-content relative">
-              <div class="row row-collapse">
-                <div class="col small-12 large-12">
-                  <div class="col-inner text-center">
+            <div className="section-content relative">
+              <div className="row row-collapse">
+                <div className="col small-12 large-12">
+                  <div className="col-inner text-center">
                     <h1>
                       <span>Contact</span>
                     </h1>
@@ -24,14 +22,14 @@ class Contact extends Component {
               </div>
             </div>
           </section>
-          <section class="section contact-second-section">
-            <div class="bg section-bg fill bg-fill  bg-loaded" />
+          <section className="section contact-second-section">
+            <div className="bg section-bg fill bg-fill  bg-loaded" />
 
-            <div class="section-content relative">
-              <div class="row row-collapse align-middle">
-                <div class="col medium-6 small-12 large-6">
-                  <div class="col-inner text-center" style={{padding: "20px 20px 20px 20px",margin: "0px 0px 0 0px"}}>
-                    <h1 class="styles-section-title styles-selector">
+            <div className="section-content relative">
+              <div className="row row-collapse align-middle">
+                <div className="col medium-6 small-12 large-6">
+                  <div className="col-inner text-center" style={{padding: "20px 20px 20px 20px",margin: "0px 0px 0 0px"}}>
+                    <h1 className="styles-section-title styles-selector">
                       Feeling better is a click or call away
                     </h1>
                     <hr />
@@ -46,19 +44,19 @@ class Contact extends Component {
                     </p>
                   </div>
                 </div>
-                <div class="col medium-6 small-12 large-6">
+                <div className="col medium-6 small-12 large-6">
                   <div
-                    class="col-inner"
+                    className="col-inner"
                     style={{
                       padding: "0px 0px 0px 0px",
                       margin: "0 0px 0px 0px"
                     }}
                   >
                     <div
-                      class="img has-hover x md-x lg-x y md-y lg-y"
+                      className="img has-hover x md-x lg-x y md-y lg-y"
                       style={{ width: "100%" }}
                     >
-                      <div class="img-inner dark">
+                      <div className="img-inner dark">
                         <img
                           width="1200"
                           height="820"
@@ -72,15 +70,15 @@ class Contact extends Component {
               </div>
             </div>
           </section>
-          <section class="section contact-third-section">
-            {/* <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.8995542063226!2d77.57677531482139!3d12.914176990893559!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae157160fbb595%3A0x9376b2f2a53c6eca!2sHealing+Hands+Advanced+Physiotherapy+Clinic!5e0!3m2!1sen!2sin!4v1531210226726" width="1436" height="400" frameborder="0" style={{border:0}} allowfullscreen></iframe> */}
+          <section className="section contact-third-section">
             <iframe
+              title='map' 
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.8995542063226!2d77.57677531482139!3d12.914176990893559!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae157160fbb595%3A0x9376b2f2a53c6eca!2sHealing+Hands+Advanced+Physiotherapy+Clinic!5e0!3m2!1sen!2sin!4v1531210226726"
               width="100%"
               height="400"
-              frameborder="0"
+              frameBorder="0"
               style={{ border: 0 }}
-              allowfullscreen
+              allowFullScreen
             />
           </section>
           <section className="section bordertop book-now-section">

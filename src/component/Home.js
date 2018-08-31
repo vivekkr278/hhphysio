@@ -5,10 +5,6 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
 class Home extends Component {
-  constructor(props) {
-    super(props);
-    
-  }
   render() {
     var settings = {
       dots: true,

@@ -2,22 +2,19 @@ import React, { Component } from "react";
 import { Link } from "react-router-dom";
 
 class BackPain extends Component {
-  constructor(props) {
-    super(props);
-  }
 
   render() {
     window.scrollTo(0, 0);
     return (
       <div id="BackPain" className="pageContainer">
-        <div id="content" role="main" class="content-area">
-          <section class="section dark back-pain-first-section">
-            <div class="bg section-bg fill bg-fill  bg-loaded" />
+        <div id="content" role="main" className="content-area">
+          <section className="section dark back-pain-first-section">
+            <div className="bg section-bg fill bg-fill  bg-loaded" />
 
-            <div class="section-content relative">
-              <div class="row row-collapse">
-                <div class="col small-12 large-12">
-                  <div class="col-inner text-center">
+            <div className="section-content relative">
+              <div className="row row-collapse">
+                <div className="col small-12 large-12">
+                  <div className="col-inner text-center">
                     <h1>
                       <span>BACK PAIN</span>
                     </h1>
@@ -27,24 +24,24 @@ class BackPain extends Component {
             </div>
           </section>
 
-          <section class="section back-pain-second-section">
-            <div class="bg section-bg fill bg-fill  bg-loaded" />
+          <section className="section back-pain-second-section">
+            <div className="bg section-bg fill bg-fill  bg-loaded" />
 
-            <div class="section-content relative">
+            <div className="section-content relative">
               <div
-                class="banner has-hover back-pain-banner"
+                className="banner has-hover back-pain-banner"
                 id="back-pain-banner"
               >
-                <div class="banner-inner fill">
-                  <div class="banner-bg fill">
-                    <div class="bg fill bg-fill  bg-loaded" />
-                    <div class="overlay" />
+                <div className="banner-inner fill">
+                  <div className="banner-bg fill">
+                    <div className="bg fill bg-fill  bg-loaded" />
+                    <div className="overlay" />
                   </div>
-                  <div class="banner-layers container">
-                    <div class="fill banner-link" />
-                    <div class="text-box banner-layer x50 md-x0 lg-x10 y25 md-y80 lg-y75 res-text banner-text-box">
-                      <div class="text dark">
-                        <div class="text-inner text-center">
+                  <div className="banner-layers container">
+                    <div className="fill banner-link" />
+                    <div className="text-box banner-layer x50 md-x0 lg-x10 y25 md-y80 lg-y75 res-text banner-text-box">
+                      <div className="text dark">
+                        <div className="text-inner text-center">
                           <h3>
                             <span style={{ letterSpacing: "3px" }}>
                               <strong>
@@ -62,14 +59,14 @@ class BackPain extends Component {
             </div>
           </section>
 
-          <section class="section back-pain-third-section">
-            <div class="bg section-bg fill bg-fill  bg-loaded" />
+          <section className="section back-pain-third-section">
+            <div className="bg section-bg fill bg-fill  bg-loaded" />
 
-            <div class="section-content relative">
-              <div class="row">
-                <div class="col small-12 large-12">
-                  <div class="col-inner text-center">
-                    <h1 class="styles-section-title styles-selector">
+            <div className="section-content relative">
+              <div className="row">
+                <div className="col small-12 large-12">
+                  <div className="col-inner text-center">
+                    <h1 className="styles-section-title styles-selector">
                       RELIEF FROM RECURRING BACK PAIN<br />YOU DON’T HAVE TO LET
                       IT DEFINE YOUR LIFE
                     </h1>
@@ -92,14 +89,14 @@ class BackPain extends Component {
             </div>
           </section>
 
-          <section class="section back-pain-fourth-section">
-            <div class="bg section-bg fill bg-fill  bg-loaded" />
+          <section className="section back-pain-fourth-section">
+            <div className="bg section-bg fill bg-fill  bg-loaded" />
 
-            <div class="section-content relative">
-              <div class="row" id="row-1732086110">
-                <div class="col small-12 large-12">
-                  <div class="col-inner text-center">
-                    <h1 class="styles-section-title styles-selector">
+            <div className="section-content relative">
+              <div className="row" id="row-1732086110">
+                <div className="col small-12 large-12">
+                  <div className="col-inner text-center">
+                    <h1 className="styles-section-title styles-selector">
                       COMMON CAUSES OF BACK PAIN
                     </h1>
                     <p style={{marginBottom: "0px"}}>
@@ -118,14 +115,14 @@ class BackPain extends Component {
             </div>
           </section>
 
-          <section class="section back-pain-fifth-section">
-            <div class="bg section-bg fill bg-fill  bg-loaded" />
+          <section className="section back-pain-fifth-section">
+            <div className="bg section-bg fill bg-fill  bg-loaded" />
 
-            <div class="section-content relative">
-              <div class="row" id="row-1935858396">
-                <div class="col small-12 large-12">
-                  <div class="col-inner text-center">
-                    <h1 class="styles-section-title styles-selector">
+            <div className="section-content relative">
+              <div className="row" id="row-1935858396">
+                <div className="col small-12 large-12">
+                  <div className="col-inner text-center">
+                    <h1 className="styles-section-title styles-selector">
                       INJURIES THAT CAUSE BACK PAIN
                     </h1>
                     <p style={{marginBottom: "0px"}}>

@@ -68,28 +68,28 @@ class Header extends Component {
                   </a>
                   <ul className={this.state.navServicesDropdownStyle}>
                     <li id="menu-sub-item-1" className="menu-item menu-item-type-post_type menu-item-object-page menu-sub-item-1">
-                      <a href="">Hands on Physiotherapy</a>
+                    <a href="">Hands on Physiotherapy</a>
                     </li>
                     <li id="menu-sub-item-2" className="menu-item menu-item-type-post_type menu-item-object-page menu-sub-item-2">
-                      <a href="">Therapeutic taping</a>
+                    <a href="">Electrotherapeutic modalities</a>
                     </li>
                     <li id="menu-sub-item-3" className="menu-item menu-item-type-post_type menu-item-object-page menu-sub-item-3">
-                      <a href="">Dry Needling</a>
+                    <a href="">Laser Therapy</a>
                     </li>
                     <li id="menu-sub-item-4" className="menu-item menu-item-type-post_type menu-item-object-page menu-sub-item-4">
-                      <a href="">Physiotherapy Exercises</a>
+                    <a href="">Therapeutic Exercises</a>
                     </li>
                     <li id="menu-sub-item-5" className="menu-item menu-item-type-post_type menu-item-object-page menu-sub-item-5">
-                      <a href="">Biomechanical and ergonomic analysis</a>
+                    <a href="">PEMF</a>
                     </li>
                     <li id="menu-sub-item-6" className="menu-item menu-item-type-post_type menu-item-object-page menu-sub-item-6">
-                      <a href="">Electrotherapeutic modalities</a>
+                    <a href="">Therapeutic taping</a>
                     </li>
                     <li id="menu-sub-item-7" className="menu-item menu-item-type-post_type menu-item-object-page menu-sub-item-7">
-                      <a href="">Cupping</a>
+                    <a href="">Dry Needling</a>
                     </li>
                     <li id="menu-sub-item-8" className="menu-item menu-item-type-post_type menu-item-object-page menu-sub-item-8">
-                      <a href="">Others</a>
+                    <a href="">Others</a>
                     </li>
                   </ul>
                 </li>
@@ -199,37 +199,36 @@ class Header extends Component {
                                 <Link to="/" title="Healing Hands - Advanced Physiotherapy Clinic" rel="home"><span className="nav-top-link">Home</span></Link>
                             </li>
                             <li id="menu-item-25" className="menu-item menu-has-children menu-item-type-post_type menu-item-object-page menu-item-has-children  menu-item-25 has-dropdown">
-                            <a className="nav-top-link">Services
-                            </a>
+                            <Link to="/services"><span className="nav-top-link">Services</span></Link>
                             <ul className="nav-dropdown-default">
                                 <li id="menu-sub-item-1" className="menu-item menu-item-type-post_type menu-item-object-page menu-sub-item-1">
-                                <a href="https://ratoathphysio.ie/conditions/back-pain/">Hands on Physiotherapy</a>
+                                <a href="">Hands on Physiotherapy</a>
                                 </li>
                                 <li id="menu-sub-item-2" className="menu-item menu-item-type-post_type menu-item-object-page menu-sub-item-2">
-                                <a href="https://ratoathphysio.ie/conditions/neck-pain/">Therapeutic taping</a>
+                                <a href="">Electrotherapeutic modalities</a>
                                 </li>
                                 <li id="menu-sub-item-3" className="menu-item menu-item-type-post_type menu-item-object-page menu-sub-item-3">
-                                <a href="https://ratoathphysio.ie/conditions/chronic-headaches/">Dry Needling</a>
+                                <a href="">Laser Therapy</a>
                                 </li>
                                 <li id="menu-sub-item-4" className="menu-item menu-item-type-post_type menu-item-object-page menu-sub-item-4">
-                                <a href="https://ratoathphysio.ie/conditions/planter-fasciitis/">Physiotherapy Exercises</a>
+                                <a href="">Therapeutic Exercises</a>
                                 </li>
                                 <li id="menu-sub-item-5" className="menu-item menu-item-type-post_type menu-item-object-page menu-sub-item-5">
-                                <a href="https://ratoathphysio.ie/conditions/shoulder-pain/">Biomechanical and ergonomic analysis</a>
+                                <a href="">PEMF</a>
                                 </li>
                                 <li id="menu-sub-item-6" className="menu-item menu-item-type-post_type menu-item-object-page menu-sub-item-6">
-                                <a href="https://ratoathphysio.ie/conditions/chronic-headaches/">Electrotherapeutic modalities</a>
+                                <a href="">Therapeutic taping</a>
                                 </li>
                                 <li id="menu-sub-item-7" className="menu-item menu-item-type-post_type menu-item-object-page menu-sub-item-7">
-                                <a href="https://ratoathphysio.ie/conditions/planter-fasciitis/">Cupping</a>
+                                <a href="">Dry Needling</a>
                                 </li>
                                 <li id="menu-sub-item-8" className="menu-item menu-item-type-post_type menu-item-object-page menu-sub-item-8">
-                                <a href="https://ratoathphysio.ie/conditions/shoulder-pain/">Others</a>
+                                <a href="">Others</a>
                                 </li>
                             </ul>
                             </li>
                             <li id="menu-item-26" className="menu-item menu-has-children menu-item-type-post_type menu-item-object-page menu-item-has-children  menu-item-26 has-dropdown">
-                            <a className="nav-top-link">Conditions</a>
+                            <Link to="/conditions"><span  className="nav-top-link">Conditions</span></Link>
                             <ul className="nav-dropdown-default">
                                 <li id="menu-item-176" className="menu-item menu-item-type-post_type menu-item-object-page  menu-item-176">
                                 <Link to="/back-pain"><span>Back Pain</span></Link>
@@ -249,10 +248,10 @@ class Header extends Component {
                             </ul>
                             </li>
                             {/* <li id="menu-item-376" className="menu-item menu-item-type-post_type menu-item-object-page  menu-item-376">
-                            <a href="https://ratoathphysio.ie/fees/" className="nav-top-link">Fees</a>
+                            <a href="" className="nav-top-link">Fees</a>
                             </li> */}
                             {/* <li id="menu-item-27" className="menu-item menu-item-type-post_type menu-item-object-page  menu-item-27">
-                            <a href="https://ratoathphysio.ie/faq/" className="nav-top-link">Blog</a>
+                            <a href="" className="nav-top-link">Blog</a>
                             </li> */}
                             <li id="menu-item-270" className="menu-item menu-item-type-post_type menu-item-object-page  menu-item-270">
                             <Link to="/faq"><span className="nav-top-link">FAQ</span></Link>

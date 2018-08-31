@@ -151,6 +151,9 @@ li.menu-item ul.nav-dropdown-default{
 h1{
     font-size: 1em !important;
   }
+  .services h1{
+    font-size: 1.5em !important;
+  }
   h4{
     font-size: 0.9em !important;
   }

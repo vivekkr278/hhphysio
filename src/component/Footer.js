@@ -29,7 +29,7 @@ class Footer extends Component {
                             <div className="col medium-6 small-12 large-2">
                                 <div className="col-inner">
                                     <p style={{lineHeight: "1.5em"}}><span style={{fontFamily: "Open Sans", fontSize: "95%",fontWeight:"bold"}}>INFO</span></p>
-                                    <p style={{lineHeight: "1.5em",textTransform:"uppercase"}}><a href=""><span style={{fontSize: "85%"}}>about us</span></a><br /><a href=""><span style={{fontSize: "85%"}}>services</span></a><br /><a href=""><span style={{fontSize: "85%"}}>conditions</span></a></p>
+                                    <p style={{lineHeight: "1.5em",textTransform:"uppercase"}}><Link to="/"><span style={{fontSize: "85%"}}>about us</span></Link><br /><Link to="/services"><span style={{fontSize: "85%"}}>services</span></Link><br /><Link to="/conditions"><span style={{fontSize: "85%"}}>conditions</span></Link></p>
                                 </div>
                             </div>
                             <div className="col medium-6 small-12 large-3">

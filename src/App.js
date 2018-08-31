@@ -12,7 +12,14 @@ import Header from './component/Header';
 import Footer from './component/Footer';
 import FAQ from './component/FAQ';
 import Contact from './component/Contact';
-import firebase from 'firebase';
+import Services from './component/services/Services';
+import Conditions from './component/conditions/Conditions';
+
+import  HandsOfPhysio from './component/services/HandsOfPhysio';
+import DryNeedling from './component/services/DryNeedling';
+import Cupping from './component/services/Cupping';
+import Taping from './component/services/Taping';
+//import firebase from 'firebase';
 
 class App extends Component {
     constructor (props) {
@@ -34,6 +41,12 @@ class App extends Component {
                     <Route path="/planter" component={Planter} />
                     <Route path="/faq" component={FAQ} />
                     <Route path="/contact" component={Contact} />
+                    <Route path="/services" component={Services} />
+                    <Route path="/conditions" component={Conditions} />
+                    <Route path="/handsof" component={HandsOfPhysio} />
+                    <Route path="/dryneedling" component={DryNeedling} />
+                    <Route path="/cupping" component={Cupping} />
+                    <Route path="/taping" component={Taping} />
                     <Footer></Footer>
                 </div>
             </Router>

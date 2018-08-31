@@ -2,22 +2,19 @@ import React, { Component } from "react";
 import { Link } from "react-router-dom";
 
 class Cronic extends Component {
-  constructor(props) {
-    super(props);
-  }
 
   render() {
     window.scrollTo(0, 0);
     return (
       <div id="Cronic" className="pageContainer">
-        <div id="content" role="main" class="content-area">
-          <section class="section dark cronic-first-section">
-            <div class="bg section-bg fill bg-fill  bg-loaded" />
+        <div id="content" role="main" className="content-area">
+          <section className="section dark cronic-first-section">
+            <div className="bg section-bg fill bg-fill  bg-loaded" />
 
-            <div class="section-content relative">
-              <div class="row row-collapse">
-                <div class="col small-12 large-12">
-                  <div class="col-inner text-center">
+            <div className="section-content relative">
+              <div className="row row-collapse">
+                <div className="col small-12 large-12">
+                  <div className="col-inner text-center">
                     <h1>
                       <span>Chronic Headaches and Migraines</span>
                     </h1>
@@ -27,32 +24,32 @@ class Cronic extends Component {
             </div>
           </section>
 
-          <section class="section cronic-second-section">
-            <div class="bg section-bg fill bg-fill  bg-loaded" />
+          <section className="section cronic-second-section">
+            <div className="bg section-bg fill bg-fill  bg-loaded" />
 
-            <div class="section-content relative">
-              <div class="banner has-hover cronic-banner" id="cronic-banner">
-                <div class="banner-inner fill">
-                  <div class="banner-bg fill">
-                    <div class="bg fill bg-fill  bg-loaded" />
-                    <div class="overlay" />
+            <div className="section-content relative">
+              <div className="banner has-hover cronic-banner" id="cronic-banner">
+                <div className="banner-inner fill">
+                  <div className="banner-bg fill">
+                    <div className="bg fill bg-fill  bg-loaded" />
+                    <div className="overlay" />
                   </div>
-                  <div class="banner-layers container">
-                    <div class="fill banner-link" />
+                  <div className="banner-layers container">
+                    <div className="fill banner-link" />
                   </div>
                 </div>
               </div>
             </div>
           </section>
 
-          <section class="section cronic-third-section">
-            <div class="bg section-bg fill bg-fill  bg-loaded" />
+          <section className="section cronic-third-section">
+            <div className="bg section-bg fill bg-fill  bg-loaded" />
 
-            <div class="section-content relative">
-              <div class="row">
-                <div class="col small-12 large-12">
-                  <div class="col-inner text-center">
-                    <h1 class="styles-section-title styles-selector">
+            <div className="section-content relative">
+              <div className="row">
+                <div className="col small-12 large-12">
+                  <div className="col-inner text-center">
+                    <h1 className="styles-section-title styles-selector">
                       Relief for Chronic Headache Sufferers<br />TREATING THE
                       CAUSES OF HEADACHES AND MIGRAINES
                     </h1>
@@ -82,14 +79,14 @@ class Cronic extends Component {
             </div>
           </section>
 
-          <section class="section cronic-fourth-section">
-            <div class="bg section-bg fill bg-fill  bg-loaded" />
+          <section className="section cronic-fourth-section">
+            <div className="bg section-bg fill bg-fill  bg-loaded" />
 
-            <div class="section-content relative">
-              <div class="row" id="row-1732086110">
-                <div class="col small-12 large-12">
-                  <div class="col-inner text-center">
-                    <h1 class="styles-section-title styles-selector">
+            <div className="section-content relative">
+              <div className="row" id="row-1732086110">
+                <div className="col small-12 large-12">
+                  <div className="col-inner text-center">
+                    <h1 className="styles-section-title styles-selector">
                       How We Help
                     </h1>
                     <p style={{ marginBottom: "0px" }}>

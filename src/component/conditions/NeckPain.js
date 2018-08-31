@@ -2,22 +2,19 @@ import React, { Component } from "react";
 import { Link } from "react-router-dom";
 
 class NeckPain extends Component {
-  constructor(props) {
-    super(props);
-  }
 
   render() {
     window.scrollTo(0, 0)
     return (
       <div id="NeckPain" className="pageContainer">
-        <div id="content" role="main" class="content-area">
-          <section class="section dark neck-pain-first-section">
-            <div class="bg section-bg fill bg-fill  bg-loaded" />
+        <div id="content" role="main" className="content-area">
+          <section className="section dark neck-pain-first-section">
+            <div className="bg section-bg fill bg-fill  bg-loaded" />
 
-            <div class="section-content relative">
-              <div class="row row-collapse">
-                <div class="col small-12 large-12">
-                  <div class="col-inner text-center">
+            <div className="section-content relative">
+              <div className="row row-collapse">
+                <div className="col small-12 large-12">
+                  <div className="col-inner text-center">
                     <h1>
                       <span>NECK PAIN</span>
                     </h1>
@@ -27,35 +24,35 @@ class NeckPain extends Component {
             </div>
           </section>
 
-          <section class="section neck-pain-second-section">
-            <div class="bg section-bg fill bg-fill  bg-loaded" />
+          <section className="section neck-pain-second-section">
+            <div className="bg section-bg fill bg-fill  bg-loaded" />
 
-            <div class="section-content relative">
+            <div className="section-content relative">
               <div
-                class="banner has-hover neck-pain-banner"
+                className="banner has-hover neck-pain-banner"
                 id="neck-pain-banner"
               >
-                <div class="banner-inner fill">
-                  <div class="banner-bg fill">
-                    <div class="bg fill bg-fill  bg-loaded" />
-                    <div class="overlay" />
+                <div className="banner-inner fill">
+                  <div className="banner-bg fill">
+                    <div className="bg fill bg-fill  bg-loaded" />
+                    <div className="overlay" />
                   </div>
-                  <div class="banner-layers container">
-                    <div class="fill banner-link" />
+                  <div className="banner-layers container">
+                    <div className="fill banner-link" />
                   </div>
                 </div>
               </div>
             </div>
           </section>
 
-          <section class="section neck-pain-third-section">
-            <div class="bg section-bg fill bg-fill  bg-loaded" />
+          <section className="section neck-pain-third-section">
+            <div className="bg section-bg fill bg-fill  bg-loaded" />
 
-            <div class="section-content relative">
-              <div class="row">
-                <div class="col small-12 large-12">
-                  <div class="col-inner text-center">
-                    <h1 class="styles-section-title styles-selector">
+            <div className="section-content relative">
+              <div className="row">
+                <div className="col small-12 large-12">
+                  <div className="col-inner text-center">
+                    <h1 className="styles-section-title styles-selector">
                       Put an End to Nagging Neck Pain<br /> EFFECTIVE TREATMENT
                       FOR AN ALL TOO COMMON AILMENT
                     </h1>
@@ -78,14 +75,14 @@ class NeckPain extends Component {
               </div>
             </div>
           </section>
-          <section class="section neck-pain-fourth-section">
-            <div class="bg section-bg fill bg-fill  bg-loaded" />
+          <section className="section neck-pain-fourth-section">
+            <div className="bg section-bg fill bg-fill  bg-loaded" />
 
-            <div class="section-content relative">
-              <div class="row" id="row-1935858396">
-                <div class="col small-12 large-12">
-                  <div class="col-inner text-center">
-                    <h1 class="styles-section-title styles-selector">
+            <div className="section-content relative">
+              <div className="row" id="row-1935858396">
+                <div className="col small-12 large-12">
+                  <div className="col-inner text-center">
+                    <h1 className="styles-section-title styles-selector">
                       Causes of Neck Pain
                     </h1>
                     <p style={{ marginBottom: "0px" }}>
